@@ -1,0 +1,5 @@
+welcome: Welcome to Pokemon ask.  What would you like to find out?
+
+found_pokemon: I have found the Pokemon {{ name }}, it belongs to the types {{ types|join(", ") }}.
+
+pokemon_not_found:  Sorry but I have not found a pokemon with that name. 
