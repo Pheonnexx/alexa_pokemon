@@ -1,1 +1,7 @@
-from alexa_pokemon import app as application
+#!/usr/bin/python
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/app/")
+
+from app import app as application
