@@ -30,3 +30,7 @@ def get_all_stats_for_pokemon(pokemon_name):
         msg = render_template('pokemon_not_found')
 
     return statement(msg)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
